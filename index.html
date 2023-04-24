@@ -1,0 +1,58 @@
+<%-- 
+    Document   : index
+    Created on : Apr 22, 2023, 3:02:49 PM
+    Author     : elliotfrias
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="tex    t/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Inicio</title>
+            <link rel="stylesheet" href="css/style.css">
+            <script src="js/bg_parallax.js"></script>
+        </head>
+
+        <body id="Contenido">
+            <div class = "container">
+                <div class="frame" id="transparente">
+                <h1 id = "ElliotBook">ElliotBook</h1>
+                <p id = "Slogan">Tu red social favorita</p>
+                </div>
+
+                <div class="frame" id="solido">
+                    <img id="Icono_usuario" src="css/img/Icono_Usuario.svg">
+
+                        <form id="form_sesion">
+
+                            <p id="Label">Nombre de usuario:</label>
+
+                                <input type="text" placeholder="Ingrese su nombre de usuario">
+
+                                <hr
+                                    style="border: 2px rgb(255, 0, 0) groove; border-radius: 2px; ; margin: 3% 10% 0px 10%;">
+
+                            <p id="Label">Contraseña:</label>
+
+                                <input type="password" placeholder="Ingrese su contraseña" id="Input_password">
+
+                                <hr
+                                    style="border: 2px rgb(255, 0, 0) groove; border-radius: 2px; ; margin: 3% 10% 0px 10%;">
+
+                                <a href="Controlador?accion=inicio"><button type="button">Iniciar Sesión</button></a>
+
+                            </p>
+                            <p id = "Reg">
+                                ¿No tienes una cuenta? <a id = "linkReg" href = "Controlador?accion=registrarse">Regístrate</a>
+                            </p>
+                            <br>
+                        </form>
+                </div>
+            </div>
+        </body>
+
+        </html>
